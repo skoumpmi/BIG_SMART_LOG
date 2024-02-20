@@ -1,0 +1,8 @@
+CREATE TABLE bigsmartlog.nrmse_eta_delivery(id VARCHAR(50) NOT NULL,WH1 VARCHAR(50) NOT NULL, WH2 VARCHAR(50) NOT NULL,WH3 VARCHAR(50) NOT NULL,WH4 VARCHAR(50) NOT NULL,WH5 VARCHAR(50) NOT NULL,PRIMARY KEY(id)); 
+
+
+INSERT INTO bigsmartlog.nrmse_eta_delivery(id,WH1,WH2,WH3,WH4,WH5) VALUES ('RF',"0.8473","0.7446","0.8560","0.8541","0.7206");
+INSERT INTO bigsmartlog.nrmse_eta_delivery(id,WH1,WH2,WH3,WH4,WH5) VALUES ('B',"0.7146","0.7126","0.7144","0.7635","0.7206");
+INSERT INTO bigsmartlog.nrmse_eta_delivery(id,WH1,WH2,WH3,WH4,WH5) VALUES ('GB',"0.8794","0.7745","0.8776","0.7999","0.7227");
+INSERT INTO bigsmartlog.nrmse_eta_delivery(id,WH1,WH2,WH3,WH4,WH5) VALUES ('WN',"0.9568","0.9817","0.9976","0.9849","0.9469");
+
